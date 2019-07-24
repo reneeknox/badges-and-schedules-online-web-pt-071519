@@ -19,3 +19,8 @@ def assign_rooms(names)
   end
   room_assignments
 end
+
+def printer(names)
+  batch_badge_creator(names).each
+  assign_rooms(names)
+end
